@@ -1,0 +1,17 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/rtm-api": "^5.0.3",
+    "@slack/web-api": "^5.2.1",
+    "axios": "^0.19.0",
+    "common-tags": "^1.8.0",
+    "dotenv": "^8.1.0",
+    "twitter": "^1.7.1",
+    "webdav": "^2.10.0",
+    "winston": "^3.2.1"
+  }
+}

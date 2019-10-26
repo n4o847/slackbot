@@ -10,6 +10,7 @@ const logger = require("./lib/logger");
 const plugins = [
   require("./plugins/emoji-notifier-twitter"),
   require("./plugins/channel-notifier-twitter"),
+  require("./plugins/webdav-notifier-twitter"),
 ];
 
 (async () => {

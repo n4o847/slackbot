@@ -1,6 +1,7 @@
 const cron = require("node-cron");
 const logger = require("../lib/logger");
 const webdav = require("../lib/webdav");
+const twitter = require("../lib/twitter");
 
 const getLatestModified = async () => {
   // webdav.stat() is buggy?
